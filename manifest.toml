@@ -60,7 +60,7 @@ ram.runtime = "150M"
     [resources.ports]
 
     [resources.apt]
-    packages = "sqlite3, openssl"
+    packages = "sqlite3, openssl, build-essential"
 
     [resources.nodejs]
     version = "22"
